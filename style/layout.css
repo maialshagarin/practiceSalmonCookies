@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+
+body {
+position: relative;
+}
+
+ul {
+        
+    list-style-type: none;
+    margin-top : auto;
+    margin-bottom: auto;
+    padding-bottom :10px;
+    overflow: hidden;
+    padding:0px;
+  
+  }
+  li {
+    display: inline-block;
+    margin-left: 100px;
+
+  }
+  li a {
+    display:inline-block;
+    padding: 14px 16px;
+
+  }
+#addNewShop{
+    margin: 40px;
+    text-align: center;
+}
+.shop {
+    margin-bottom: 10px;
+}
+ 
+ 
+  table, th, td {
+    margin-left: 10px;
+    text-align: center;
+  }
