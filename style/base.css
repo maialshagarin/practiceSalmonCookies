@@ -1,0 +1,44 @@
+* {box-sizing: border-box;}
+body {
+  background:radial-gradient(rgb(250, 208, 201), rgba(32, 54, 62, 0.591)) fixed;
+
+  color:rgb(71, 20, 20);
+
+    }
+
+      header {
+        background-image: repeating-radial-gradient(rgb(32, 30, 30));
+        font-size:30px;
+      }
+
+      h1{
+          text-align: center;
+          font-family: 'Pacifico', cursive;
+          background-repeat: repeat-x;
+          font-size:70px;
+        
+      }
+     
+   
+  li a {
+    color: rgb(71, 20, 20);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    
+  }
+ 
+
+img {
+    width: 980px;
+    height: 600px;
+    vertical-align: middle;}
+
+
+
+
+
+
+
+

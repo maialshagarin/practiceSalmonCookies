@@ -1,0 +1,56 @@
+* {box-sizing: border-box;}
+
+.dot {
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+    margin:6px 2 PX;
+    text-align: center;
+    background-color: rgb(71, 20, 20);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  table, th, td {
+    background-color:rgb(64, 47, 49);
+    color: rgb(250, 208, 201);
+    border: 1px solid black;
+    background-position: center;
+    font-size: 30px;
+  }
+  /* Slideshow container */
+.slideshow-container {
+    text-align:center;
+    top: 200px; 
+    right:20px; 
+    }
+    .mySlides {
+        padding-top: 25px;
+        display: block;
+       
+      }
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+} */
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  /* @media only screen and (max-width: 300px) { */
+    /* .text {font-size: 11px} */  
